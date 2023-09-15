@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#fff95b,#ff930f);
+    margin: 250px auto;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+div:hover{
+rotate: 180deg;
+border-radius: 100px;
+background-image: linear-gradient(#25ffdb,#0f33ff);
+transform: translatey(50px);
+
+}
